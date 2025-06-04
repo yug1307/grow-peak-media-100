@@ -15,7 +15,7 @@ const FooterOne = () => {
           <ul className="space-y-2">
             <li><a href="/about" className="hover:text-white">About Us</a></li>
             {/* <li><a href="#" className="hover:text-gray-400">Testimonials</a></li> */}
-            <li><a href="/privacypolicy" className="hover:text-white">Privacy Policy</a></li>
+            <li><a href="/privacy-policy" className="hover:text-white">Privacy Policy</a></li>
           </ul>
         </div> 
 

@@ -1,0 +1,35 @@
+.container{
+  /* padding: 10px 0px 5px; */
+  /* top: 0;
+  left: 0; */
+  width: 100%;
+} 
+
+.follow-us{
+  display: flex; 
+  gap: 12px;
+  justify-content: flex-start;
+  transition: width 2s, height 2s;
+}
+
+.fb, .whatsapp, .insta{
+  height: 30px;
+  width: 30px;
+}
+
+.follow-us:hover{
+  height: 35px;
+  width: 35px;
+}
+@media screen and (max-width: 768px) {
+  .container{
+    flex-direction: column;
+    flex-wrap: center;
+    margin: 0px 7px 0px;
+  }
+
+  .contact-us{
+    flex-direction: row;
+    gap: 10px; 
+  }
+}

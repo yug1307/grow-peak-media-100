@@ -62,7 +62,7 @@ const FooterOne = () => {
           <ul className="space-y-2">
             <li className="flex items-start space-x-2">
               <span>📍</span>
-              <p className="text-white">Nandanvan, Nagpur - 440024</p>
+              <p className="text-white">Nandanvan, Nagpur - 440 024</p>
             </li>
  
             <li className="flex items-center space-x-2">  

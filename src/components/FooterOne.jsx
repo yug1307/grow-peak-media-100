@@ -79,10 +79,8 @@ const FooterOne = () => {
           </ul>
         </div>
 
-        <div className="break"></div>
-
         {/* Copyright Section */}
-        <div className="footer-bottom">
+        <div className="w-full text-center py-4 text-sm text-gray-400">
           © 2025 Grow Peak Media. All rights reserved.
         </div>
       </div>

@@ -4,29 +4,29 @@ import { FaWhatsapp } from "react-icons/fa6";
 import { BiPhoneCall } from "react-icons/bi";
 import './FooterOne.css' 
 
-const FooterOne = () => {
+const FooterOne = () => { 
   return (
-    <div> 
+    <div>  
     <footer className="bg-gray-900 text-white py-8">
       <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-6 text-sm">
         {/* Company Section */}
         <div className="company"> 
           <h3 className="text-lg text-white font-semibold mb-4">Company</h3>
           <ul className="space-y-2">
-            <li><a href="/about" className="hover:text-white">About Us</a></li>
+            <li><a href="/about" className="text-blue-500">About Us</a></li>
             {/* <li><a href="#" className="hover:text-gray-400">Testimonials</a></li> */}
-            <li><a href="/privacy-policy" className="hover:text-white">Privacy Policy</a></li>
+            <li><a href="/privacy-policy" className="text-blue-500">Privacy Policy</a></li>
           </ul>
         </div> 
 
         {/* Our Services Section */}
         <div className="services">
           <a href="/services"><h3 className="text-lg text-white font-semibold mb-4">Our Services</h3></a>
-          <ul className="space-y-2">
-            <li><a href="#" className="hover:text-white">Video Production</a></li>
-            <li><a href="#" className="hover:text-white">Social Media Setup</a></li>
-            <li><a href="#" className="hover:text-white">Brand Launch Packages</a></li>
-            <li><a href="#" className="hover:text-white">Social Media Management</a></li>
+          <ul className="space-y-2"> 
+            <li><a href="#" className="text-blue-500">Video Production</a></li>
+            <li><a href="#" className="text-blue-500">Social Media Setup</a></li>
+            <li><a href="#" className="text-blue-500">Brand Launch Packages</a></li>
+            <li><a href="#" className="text-blue-500">Social Media Management</a></li>
           </ul>
         </div>
 

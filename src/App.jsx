@@ -7,11 +7,11 @@ import { PiVideoCameraFill } from "react-icons/pi";
 import { FaFacebookSquare } from "react-icons/fa"; 
 import { AiFillInstagram } from "react-icons/ai";
 import { FaArrowTrendUp } from "react-icons/fa6";
-import './App.css'
+import './App.css' 
 
 const Services = React.lazy(() => import('./components/Services'));
 
-<Suspense fallback={<div>Loading...</div>}>
+<Suspense fallback={<div>Loading...</div>}> 
   <Services />
 </Suspense>
 

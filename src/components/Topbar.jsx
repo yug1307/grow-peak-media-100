@@ -13,7 +13,7 @@ const Topbar = () => {
 
         {/* Hamburger for small devices */}
         <button 
-          className="md:hidden flex items-end text-2xl text-white"
+          className="md:hidden flex items-start text-2xl text-white"
           onClick={() => setIsOpen(!isOpen)}>
           ☰
         </button>

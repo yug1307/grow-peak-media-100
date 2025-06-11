@@ -128,21 +128,6 @@ const Services = () => {
           </div>
         </div>
       </section>
-
-      {/* Why Choose Us */}
-      <section class="bg-gradient-to-b from-gray-100 via-white to-gray-100 py-12">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 class="text-3xl sm:text-4xl font-bold text-gray-800 mb-6">Why GrowPeak Media?</h2>
-          
-          <ul class="list-disc pl-5 text-gray-700 space-y-1">
-            <li className='list-none'><b>Tailored Content:</b> We know every brand is different, so we never use the same designs or videos twice. Everything we create is made specifically for your business.</li>
-            <li className='list-none'><b>Creative + Strategic:</b> We mix fresh, bold ideas with smart strategies that are proven to work. This helps your brand stand out and succeed.</li>
-            <li className='list-none'><b>Complete Support:</b> We don’t just set things up and leave—we’re with you from the beginning and continue to support you as your brand grows.</li>
-            <li className='list-none'><b>Trend-Focused:</b> We keep up with what’s popular online, so your content always feels current and connects with your audience.</li>
-            <li className='list-none'><b>Growth-Driven:</b> Our work doesn’t just look nice—it’s designed to help you get real results like more engagement, followers, or customers.</li>
-          </ul>
-        </div>
-      </section>
         <FooterOne/>
     </div>
   )

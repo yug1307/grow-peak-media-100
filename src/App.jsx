@@ -27,7 +27,7 @@ function App() {
         </p>
       </main>
 
-      <h2 className="text-2xl text-center mt-5 mb-5">Our Services</h2>
+      <h2 className="text-3xl text-center mt-5 mb-5">Our Services</h2>
       <section className="grid grid-cols-2 md:grid-cols-4 gap-2 p-2 mb-5">
         <div className="bg-white shadow-lg rounded-lg p-6 hover:shadow-xl hover:bg-blue-300 transition text-center">
           <PiVideoCameraFill className="video"/>Video Production

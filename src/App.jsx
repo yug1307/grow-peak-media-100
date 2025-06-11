@@ -46,8 +46,37 @@ function App() {
         </div>
       </section>
 
-        {/* FAQs Section */}
+      <h2 className="text-3xl text-center mt-5 mb-5">Why Choose Us</h2>
+      <section className="grid grid-cols-1 md:grid-cols-5 gap-2 p-2 mb-5">
+        <div className="bg-white shadow-lg rounded-lg p-6 hover:shadow-xl hover:bg-teal-200 transition text-center">
+          <b>Tailored Content:</b>
+          <p>We know every brand is different, so we never use the same designs or videos twice. 
+          Everything we create is made specifically for your business.</p>
+        </div>
 
+        <div className="bg-white shadow-lg rounded-lg p-6 hover:shadow-xl hover:bg-teal-200 transition text-center">
+          <b>Creative + Strategic:</b>
+          <p>We mix fresh, bold ideas with smart strategies that are proven to work. 
+          This helps your brand stand out and succeed.</p>
+        </div>
+
+        <div className="bg-white shadow-lg rounded-lg p-6 hover:shadow-xl hover:bg-teal-200 transition text-center">
+          <b>Complete Support:</b>
+          <p>We don’t just set things up and leave—we’re with you from the beginning 
+          and continue to support you as your brand grows.</p>
+        </div>
+
+        <div className="bg-white shadow-lg rounded-lg p-6 hover:shadow-xl hover:bg-teal-200 transition text-center">
+          <b>Trend-Focused:</b>
+          <p>We keep up with what’s popular online, so your content always feels current and connects with your audience.</p>
+        </div>
+
+        <div className="bg-white shadow-lg rounded-lg p-6 hover:shadow-xl hover:bg-teal-200 transition text-center">
+          <b>Growth-Driven:</b>
+          <p>Our work doesn’t just look nice—it’s designed to help you get real
+          results like more engagement, followers, or customers.</p>
+        </div>
+      </section>
     </div>
       <FAQ />
       <ContactForm />

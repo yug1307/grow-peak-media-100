@@ -81,7 +81,7 @@ const FooterOne = () => {
       </div>
 
       {/* Copyright Section */}
-      <div className="w-full text-center py-4 text-md text-gray-300">
+      <div className="w-full text-center py-4 mt-5 text-md text-gray-300">
         <p>© 2025 Grow Peak Media. All rights reserved.</p>
       </div>
     </footer>

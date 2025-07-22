@@ -12,8 +12,8 @@ const Topbar = () => {
         <div className="text-lg text-white font-bold">
           <h2 className="mt-1.5">Grow Peak Media</h2>
       
-          <button className='md:hidden text-2xl text-white ml-auto mr-3' onClick={() => setIsOpen(!isOpen)}>☰</button>
         </div>
+          <button className='md:hidden text-2xl text-white ml-auto mr-3' onClick={() => setIsOpen(!isOpen)}>☰</button>
 
         {/* Menu Items */}
         <ul className={`flex-col md:flex-row md:flex md:justify-between md:space-x-8 space-y-2 md:space-y-0 absolute md:static right-0 top-12 bg-gray-800 text-orange-400 md:bg-transparent w-full md:w-auto z-50 transition-all duration-300 ${isOpen ? 'flex' : 'hidden'}`}>

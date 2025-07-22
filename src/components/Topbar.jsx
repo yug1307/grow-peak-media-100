@@ -19,7 +19,6 @@ const Topbar = () => {
           <Link to="/"><div className="block px-4 py-2 hover:underline">Home</div></Link>
           <Link to="/about"><div className="block px-4 py-2 hover:underline">About Us</div></Link>
           <Link to="/services"><div className="block px-4 py-2 hover:underline">Services</div></Link>
-          <Link to="/contact"><div className="block px-4 py-2 hover:underline">Contact Us</div></Link>
         </ul>
       </div>  
     </div>

@@ -1,28 +1,27 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-// import './Topbar.css'; 
 
 const Topbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-
-  return ( 
-    <div className="w-full bg-gray-800 text-white">
-      <div className="container mx-auto flex items-center justify-between px-4 py-2">
-        {/* Logo or Brand */}
-        <div className="text-lg text-white font-bold">
-          Grow Peak Media
+ 
+  return (  
+    <div className="w-full bg-gray-700 text-white inline-block">
+      <div className="container mx-auto flex md:justify-between px-4 py-2">
+        {/* Logo or Brand */} 
+        <div className="text-lg text-white flex font-bold">
+          <h2 className="mt-1.5">Grow Peak Media</h2>
       
+          <button className='md:hidden text-2xl text-white ml-auto mr-3' onClick={() => setIsOpen(!isOpen)}>☰</button>
         </div>
-          <button className='md:hidden w-24 text-2xl text-white ml-auto mr-3 mb-3' onClick={() => setIsOpen(!isOpen)}>☰</button>
-
-        {/* Menu Items */}
-        <ul className={`flex-col md:flex-row md:flex md:justify-between md:space-x-8 space-y-2 md:space-y-0 absolute md:static right-0 top-12 bg-gray-800 text-orange-400 md:bg-transparent w-full md:w-auto z-50 transition-all duration-300 ${isOpen ? 'flex' : 'hidden'}`}>
-          <Link to="/"><div className="block px-4 py-2 hover:text-blue-300">Home</div></Link>
-          <Link to="/about"><div className="block px-4 py-2 hover:text-blue-300">About Us</div></Link>
-          <Link to="/services"><div className="block px-4 py-2 hover:text-blue-300">Services</div></Link>
-{/*           <Link to="/privacy-policy"><div className="block px-4 py-2 hover:text-blue-300">Privacy Policy</div></Link> */}
+ 
+        {/* Menu Items */}  
+        <ul className={`flex-col md:flex-row md:flex md:items-center md-space-between md:space-x-8 space-y-2 md:space-y-0 absolute md:static right-0 top-12 bg-gray-700 text-orange-400 md:bg-transparent w-full md:w-auto z-50 transition-all duration-300 ${isOpen ? 'block' : 'hidden'}`}>
+          <Link to="/"><div className="block px-4 py-2 hover:underline">Home</div></Link>
+          <Link to="/about"><div className="block px-4 py-2 hover:underline">About Us</div></Link>
+          <Link to="/services"><div className="block px-4 py-2 hover:underline">Services</div></Link>
+          <Link to="/contact"><div className="block px-4 py-2 hover:underline">Contact Us</div></Link>
         </ul>
-      </div>
+      </div>  
     </div>
   );
 };

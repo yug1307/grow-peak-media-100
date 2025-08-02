@@ -8,7 +8,7 @@ const FooterOne = () => {
   return (
     <div> 
     <footer className="bg-gray-900 text-white py-8">
-      <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-6 text-sm">
+      <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-6 text-center text-sm">
         {/* Company Section */}
         <div className="company"> 
           <h3 className="text-lg text-white font-semibold mb-4">Company</h3>

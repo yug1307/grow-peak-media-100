@@ -2,7 +2,7 @@ import { useState } from 'react';
 import axios from 'axios';
 
 const ContactForm = () => {
-  const [form, setForm] = useState({
+  const [form, setForm] = useState({ 
     name: '', email: '', number: '', service: '', description: ''
   });
 

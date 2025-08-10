@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Topbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-
+ 
   return ( 
     <div className="w-full bg-gray-800 text-white">
       <div className="container mx-auto flex items-center justify-between px-4 py-2">

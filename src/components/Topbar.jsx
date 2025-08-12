@@ -6,8 +6,8 @@ const Topbar = () => {
   const [isOpen, setIsOpen] = useState(false);
  
   return ( 
-    <div className="w-full bg-gray-800 text-white">
-      <div className="container mx-auto flex items-center justify-between px-4 py-2">
+    <div className="w-full bg-gray-800 text-white inline-block">
+      <div className="container mx-auto flex justify-between px-4 py-2">
         {/* Logo or Brand */}
         <div className="text-lg text-white flex font-bold">
           <h2 className="mt-1.5">Grow Peak Media</h2>

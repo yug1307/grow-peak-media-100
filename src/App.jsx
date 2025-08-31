@@ -1,7 +1,6 @@
 import React, { Suspense } from 'react';
 import Topbar from './components/Topbar'
 import FAQ from "./components/FAQ";
-import ContactForm from "./components/ContactForm"
 import FooterOne from './components/FooterOne'
 import { PiVideoCameraFill } from "react-icons/pi";
 import { FaFacebookSquare } from "react-icons/fa"; 
@@ -45,12 +44,8 @@ function App() {
           <FaArrowTrendUp className="video"/>Brand Launch Packages
         </div>
       </section>
-
-        {/* FAQs Section */}
-
     </div>
       <FAQ />
-      <ContactForm />
       <FooterOne/>
     </>
   )

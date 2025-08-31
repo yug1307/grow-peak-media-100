@@ -4,6 +4,7 @@ import App from './App.jsx';
 import About from './components/About.jsx';
 import Services from './components/Services.jsx';
 import PrivacyPolicy from './components/PrivacyPolicy.jsx';
+import ContactUs from './components/ContactUs.jsx';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './index.css';
  
@@ -13,7 +14,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Route path="/" element={<App />} /> 
       <Route path="/about" element={<About />} />
       <Route path="/services" element={<Services />} />
-      <Route path="/privacy-policy" element={<PrivacyPolicy />} /> 
+      <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+      <Route path="/contact" element={<ContactUs/>} />
     </Routes>
   </BrowserRouter>
 )

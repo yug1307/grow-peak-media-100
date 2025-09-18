@@ -8,6 +8,7 @@ const FooterOne = () =>{
         {/* Company */}
         <div>
         <h3 className="text-lg font-semibold mb-4 text-white">Company</h3>
+          
           <ul className="space-y-2">
             <li><a href="/about" className="hover:text-white">About Us</a></li>
             <li><a href="/privacypolicy" className="hover:text-white">Privacy Policy</a></li>
@@ -29,6 +30,7 @@ const FooterOne = () =>{
         {/* Social Media */}
         <div>
         <h3 className="text-lg font-semibold mb-4 text-white">Follow Us</h3>
+          
           <div className="flex gap-5 text-2xl">
             <a href="https://www.facebook.com/share/19Q5eYMq54/?mibextid=wwXIfr" className="hover:text-blue-500"><FaFacebook/></a>
             <a href="https://wa.me/917888020432" className="hover:text-green-400"><FaWhatsapp/></a>

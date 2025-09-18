@@ -7,11 +7,11 @@ const About = () => {
   return ( 
     <div> 
       <Topbar /> 
-        <section class="bg-gradient-to-b from-gray-100 via-white to-gray-100 py-12">
-        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h2 class="text-3xl sm:text-4xl font-bold text-gray-800 mb-6">About Us</h2>
+        <section class="bg-gradient-to-r from-orange-400 to-indigo-400 p-8">
+        <div class="max-w-5xl mx-auto lg:px-8 text-center">
+        <h2 class="text-3xl sm:text-4xl font-bold text-gray-800 mb-5">About Us</h2>
 
-        <div class="space-y-6 text-gray-700 text-base sm:text-lg leading-relaxed">
+        <div class="space-y-2 text-gray-800 text-base sm:text-lg leading-relaxed">
           <p class="font-semibold text-gray-900 text-xl">We Help Your Brand Grow Through Powerful Content</p>
           <p>At GrowPeak Media, we create videos and social media content that help brands stand out, connect with their audience, and grow faster.
           We believe great content isn’t just creative—it should bring real results.
@@ -22,21 +22,17 @@ const About = () => {
           <p>We’re a creative team of video makers, designers, and digital strategists. Our goal is simple: to turn your ideas into powerful stories
           that people remember and act on. We’ve worked with startups, creators, small businesses, and personal brands—
           helping them grow online with smart, high-quality content.</p>
-
-          <p class="font-semibold text-gray-900 text-xl">Our Mission</p>
-          <p>Our mission is to help brands grow through powerful content. We believe that every brand has a unique story to tell,
-          and we’re here to help you tell it in a way that resonates with your audience.</p>
         </div>
         </div>
         </section>
 
 
         {/* What We Do Section */}
-        <section class="bg-gradient-to-br from-blue-100 via-white to-blue-50 py-16 px-6 md:px-20" id="services">
+        <section class="bg-gradient-to-bl from-lime-400 to-blue-400 px-5 py-16 md:px-10" id="services">
           <div class="max-w-7xl mx-auto">
           <h2 class="text-4xl font-bold text-center text-gray-800 mb-12">What We Do</h2>
 
-          <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
       
           {/* Video Production  */}
           <div class="bg-white shadow-lg rounded-lg p-6 hover:shadow-xl transition">

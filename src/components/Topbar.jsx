@@ -7,7 +7,7 @@ const Topbar = () => {
  
   return ( 
     <div className="w-full bg-violet-800 text-white inline-block">
-      <div className="container mx-auto flex justify-between px-4 py-2">
+      <div className="container mx-auto flex justify-between p-4">
         {/* Logo or Brand */}
           <h2 className="mt-1.5 text-lg text-white flex font-bold">Grow Peak Media</h2>
 

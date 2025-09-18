@@ -16,7 +16,8 @@ const FooterOne = () =>{
 
         {/* Services */}
         <div>
-        <h3 className="text-lg font-semibold mb-4 text-white">Our Services</h3>
+        <a href="/services"><h3 className="text-lg font-semibold mb-4 text-white">Our Services</h3></a>
+          
           <ul className="space-y-2">
             <li>Video Production</li>
             <li>Social Media Setup</li>

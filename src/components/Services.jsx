@@ -21,7 +21,7 @@ const Services = () => {
       </section>
 
       {/* Services Section */}
-      <section class="bg-gradient-to-br from-blue-100 via-white to-blue-50 py-16 px-6 md:px-14" id="services">
+      <section class="bg-gradient-to-t from-yellow-400 to-emerald-400 py-16 px-4 md:px-10" id="services">
         <div class="max-w-7xl mx-auto">
           <h2 class="text-4xl font-bold text-center text-gray-800 mb-12">What We Offer</h2>
 
@@ -29,10 +29,10 @@ const Services = () => {
 
             {/* Video Production */}
             <div class="bg-white shadow-lg rounded-lg p-6 hover:shadow-xl transition">
-              <h3 class="text-2xl font-semibold text-blue-700 mb-3">1. Video Production</h3>
-              <p class="text-gray-600 mb-4">Tell Your Story Through Compelling Visuals</p>
+              <h3 class="text-2xl font-semibold text-blue-700">1. Video Production</h3>
+              <p class="text-gray-600 my-2">Tell Your Story Through Compelling Visuals</p>
 
-              <p class="text-gray-600 mb-1">Our Video Services:</p>
+              <p class="text-gray-600 my-1">Our Video Services:</p>
               <ul class="list-disc mb-3 pl-5 text-gray-700 space-y-1">
                 <li>Instagram Reels</li>
                 <li>Brand Films</li>
@@ -40,12 +40,13 @@ const Services = () => {
                 <li>Testimonials</li>
               </ul>
 
-              <p class="text-gray-600 mb-1">Production Includes:</p>
+              <p class="text-gray-600 my-1">Production Includes:</p>
               <ul class="list-disc pl-5 text-gray-700 space-y-1">
                 <li>Scriptwriting & creative direction</li>
                 <li>Professional shooting with high-end cameras</li>
                 <li>Editing with music, transitions, effects & graphics</li>
               </ul>
+              
               <p class="mt-3 text-sm text-gray-500">We produce high-quality videos that capture attention, 
               connect with your audience, and communicate your message clearly. 
               From short-form reels to full-length brand films, our video content is designed to make a lasting impact.</p>
@@ -53,10 +54,10 @@ const Services = () => {
 
             {/* Social Media Management */}
             <div class="bg-white shadow-lg rounded-lg p-6 hover:shadow-xl transition">
-              <h3 class="text-2xl font-semibold text-blue-700 mb-3">2. Social Media Management</h3>
-              <p class="text-gray-600 mb-4">Consistent, Creative & Growth-Oriented</p>
+              <h3 class="text-2xl font-semibold text-blue-700">2. Social Media Management</h3>
+              <p class="text-gray-600 my-2">Consistent, Creative & Growth-Oriented</p>
 
-              <p class="text-gray-600 mb-1">What's Included:</p>
+              <p class="text-gray-600 my-1">What's Included:</p>
               <ul class="list-disc mb-3 pl-5 text-gray-700 space-y-1">
                 <li>Monthly content planning & strategy</li>
                 <li>Custom post, story, and reel design</li>
@@ -65,10 +66,11 @@ const Services = () => {
                 <li>Monthly analytics & performance reporting</li>
               </ul>
 
-              <p class="text-gray-600 mb-1">Platforms We Manage</p>
+              <p class="text-gray-600 my-1">Platforms We Manage</p>
               <ul class="list-disc pl-5 text-gray-700 space-y-1">
                 <li className='list-none'>Instagram | YouTube | LinkedIn | Facebook | Twitter (X) | Pinterest | Threads</li>
               </ul>
+              
               <p class="mt-3 text-sm text-gray-500">We manage your social media channels with a 
               strategy-first approach—so your brand stays relevant, active, and engaging. 
               Whether you’re looking to build awareness, grow your audience, or drive conversions, 
@@ -77,10 +79,10 @@ const Services = () => {
 
             {/* Social Media Setup */}
             <div class="bg-white shadow-lg rounded-lg p-6 hover:shadow-xl transition">
-              <h3 class="text-2xl font-semibold text-blue-700 mb-3">3. Social Media Setup</h3>
-              <p class="text-gray-600 mb-4">Start Strong with a Professional Setup</p>
+              <h3 class="text-2xl font-semibold text-blue-700">3. Social Media Setup</h3>
+              <p class="text-gray-600 my-2">Start Strong with a Professional Setup</p>
 
-              <p class="text-gray-600 mb-1">Setup Services Include:</p>
+              <p class="text-gray-600 my-1">Setup Services Include:</p>
               <ul class="list-disc mb-3 pl-5 text-gray-700 space-y-1">
                 <li>Creating and optimizing profiles</li>
                 <li>Branded profile & cover photos   </li>
@@ -92,11 +94,12 @@ const Services = () => {
                 <li>Optional: Google Business Profile setup</li>
               </ul>
 
-              <p class="text-gray-600 mb-1">Available for:</p>
+              <p class="text-gray-600 my-1">Available for:</p>
               <ul class="list-disc pl-5 text-gray-700 space-y-1">
                 <li className='list-none'>Instagram | Facebook | LinkedIn | YouTube | Twitter (X) | 
                   Pinterest | Threads | WhatsApp Business</li>
               </ul>
+              
               <p class="mt-3 text-sm text-gray-500">First impressions matter. We ensure your brand looks 
               professional and cohesive across all social platforms from day one. 
               Perfect for new businesses or rebrands.</p>
@@ -104,10 +107,10 @@ const Services = () => {
 
             {/* Brand Launch Packages */}
             <div class="bg-white shadow-lg rounded-lg p-6 hover:shadow-xl transition">
-              <h3 class="text-2xl font-semibold text-blue-700 mb-3">4. Brand Launch Packages</h3>
-              <p class="text-gray-600 mb-4">Launch with Confidence and Clarity</p>
+              <h3 class="text-2xl font-semibold text-blue-700">4. Brand Launch Packages</h3>
+              <p class="text-gray-600 my-2">Launch with Confidence and Clarity</p>
 
-              <p class="text-gray-600 mb-1">Launch Packages Include:</p>
+              <p class="text-gray-600 my-1">Launch Packages Include:</p>
               <ul class="list-disc mb-3 pl-5 text-gray-700 space-y-1">
                 <li>Logo design & complete brand identity</li>
                 <li>Launch video & announcement reels</li>
@@ -116,10 +119,11 @@ const Services = () => {
                 <li>Link-in-bio or mini website setup (optional)</li>
               </ul>
 
-              <p class="text-gray-600 mb-1">Perfect For:</p>
+              <p class="text-gray-600 my-1">Perfect For:</p>
               <ul class="list-disc pl-5 text-gray-700 space-y-1">
                 <li className='list-none'>Startups | Small Businesses | Content Creators | Coaches | Personal Brands</li>
               </ul>
+              
               <p class="mt-3 text-sm text-gray-500">Our curated launch kits provide everything you need to go 
               live with a polished and professional brand presence. 
               Ideal for entrepreneurs, creators, and coaches looking to make a bold entrance.</p>

@@ -12,13 +12,13 @@ const About = () => {
         <h2 class="text-3xl sm:text-4xl font-bold text-gray-800 mb-5">About Us</h2>
 
         <div class="space-y-2 text-gray-800 text-base sm:text-lg leading-relaxed">
-          <p class="font-semibold text-gray-900 text-xl">We Help Your Brand Grow Through Powerful Content</p>
+          <p class="font-semibold text-xl">We Help Your Brand Grow Through Powerful Content</p>
           <p>At GrowPeak Media, we create videos and social media content that help brands stand out, connect with their audience, and grow faster.
           We believe great content isn’t just creative—it should bring real results.
           Whether you’re just starting out or ready to scale up, we’re here to help you grow with 
           confidence and clarity.</p>
 
-          <p class="font-semibold text-gray-900 text-xl">We’re Not Just a Video Production Company—We’re Your Partners in Growth</p>
+          <p class="font-semibold text-xl">We’re Not Just a Video Production Company—We’re Your Partners in Growth</p>
           <p>We’re a creative team of video makers, designers, and digital strategists. Our goal is simple: to turn your ideas into powerful stories
           that people remember and act on. We’ve worked with startups, creators, small businesses, and personal brands—
           helping them grow online with smart, high-quality content.</p>

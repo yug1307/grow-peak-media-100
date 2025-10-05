@@ -13,7 +13,7 @@ const ContactForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post('https://grow-peak-backend.onrender.com', form);
+      await axios.post('https://grow-peak-backend.onrender.com/api/contact', form);
       alert('Submitted successfully!');
       setForm({ name: '', email: '', number: '', service: '', description: '' });
     } catch (err) {

@@ -26,40 +26,44 @@ function App() {
     <>
       <Topbar /> 
       {/* <Carousel/> */}
-      <section className="py-16 bg-gradient-to-r from-blue-50 to-indigo-100">
-      <div className="max-w-6xl mx-auto px-6 text-center">
+      <section className="py-16 bg-gradient-to-r from-blue-50 to-indigo-100 space-y-8">
+        <div className="max-w-6xl mx-auto px-6 text-center space-y-3">
     
-      {/* Title */}
-        <h2 className="text-4xl font-extrabold text-purple-600">
-        Powerful Visual Content That Elevates Brands</h2>
+        {/* Title */} 
+          <h2 className="text-4xl font-extrabold text-purple-600">
+            Powerful Visual Content That Elevates Brands</h2>
 
-        <p className="mt-4 text-lg text-gray-600">
-        We create cinematic videos, stunning visuals, and engaging content that helps your brand business grow.
-        </p>
+          <p className="text-lg text-gray-600">
+            We create cinematic videos, stunning visuals, and engaging content that helps your brand business grow.
+          </p>
+        </div>
 
         {/* About */}
-        <div className="mt-10">
-          <h3 className="text-4xl font-bold text-gray-900">About Us</h3>
-          <p className="mt-4 text-lg text-gray-700 leading-relaxed max-w-3xl mx-auto">
+        <div className="space-y-5">
+          <h3 className="text-4xl font-bold text-gray-900 text-center">About Us</h3>
+
+          <p className="text-lg text-gray-700 leading-relaxed max-w-3xl mx-auto">
           At <span className="font-semibold text-indigo-600">Grow Peak Media</span>, 
           we specialize in creating videos and social media content that helps your brand grow faster.
           From video production to brand launch packages, we partner with you to make your brand shine 
           among the people.
           </p>
         </div>
-      </div>
       </section>
 
-      <section className="bg-gradient-to-b from-white to-blue-200 py-16 px-6">
-      <div className="text-center mb-12">
-        <h2 className="text-4xl font-bold mb-6">🚀 Our Services</h2>
+      <section className="bg-gradient-to-b from-white to-blue-200 py-16 px-6 space-y-8">
+      <div className="space-y-7">
+        <h2 className="text-4xl font-bold text-center">🚀 Our Services</h2>
+
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 max-w-6xl mx-auto">
           {services.map((service, i) => (
+
             <div
               key={i}
-              className="p-6 bg-white rounded-2xl shadow-md hover:shadow-xl transition-transform transform hover:-translate-y-2"
-            >
-              <div className="mb-4 flex justify-center text-blue-600">{service.icon}</div>
+              className="py-6 bg-white rounded-2xl hover:shadow-xl 
+              transition transform hover:-translate-y-2 space-y-2 text-center">
+
+              <div className="flex justify-center text-blue-600">{service.icon}</div>
               <h3 className="text-lg font-semibold">{service.title}</h3>
             </div>
           ))}

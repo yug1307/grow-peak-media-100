@@ -6,24 +6,25 @@ const Services = () => {
   return (
     <div>
       <Topbar />
-      <section class="bg-gradient-to-b from-gray-100 via-white to-gray-100 py-12">
+      <section class="bg-gradient-to-b from-gray-100 via-white to-gray-100 py-12 space-y-6">
         <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h2 class="text-3xl sm:text-4xl font-bold text-gray-800 mb-6">Our Services</h2>
+          <h2 class="text-3xl sm:text-4xl font-bold text-gray-800">Our Services</h2>
 
-        <div class="space-y-6 text-gray-700 text-base sm:text-lg leading-relaxed">
-          <p class="font-semibold text-gray-900 text-xl">We Help Your Brand Grow Through Powerful Content</p>
-          <p>At GrowPeak Media, we specialize in video production, social media management, 
-          and brand launch services to help startups, creators, and businesses build a strong digital presence. 
-          Whether you’re starting from scratch or ready to scale, we create content and strategies that 
-          move your brand forward—with clarity, creativity, and consistency.</p>
-        </div>
+          <div class="space-y-4 text-gray-700 text-base sm:text-lg leading-relaxed">
+            <p class="font-semibold text-gray-900 text-xl">We Help Your Brand Grow Through Powerful Content</p>
+            
+            <p>At GrowPeak Media, we specialize in video production, social media management, 
+            and brand launch services to help startups, creators, and businesses build a strong digital presence. 
+            Whether you’re starting from scratch or ready to scale, we create content and strategies that 
+            move your brand forward—with clarity, creativity, and consistency.</p>
+          </div>
         </div>
       </section>
 
       {/* Services Section */}
       <section class="bg-gradient-to-t from-yellow-400 to-emerald-400 py-16 px-4 md:px-10" id="services">
-        <div class="max-w-7xl mx-auto">
-          <h2 class="text-4xl font-bold text-center text-gray-800 mb-12">What We Offer</h2>
+        <div class="max-w-6xl mx-auto space-y-8">
+          <h2 class="text-4xl font-bold text-center text-gray-800">What We Offer</h2>
 
           <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
 

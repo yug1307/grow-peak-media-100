@@ -42,7 +42,7 @@ function App() {
         <div className="space-y-5">
           <h3 className="text-4xl font-bold text-gray-900 text-center">About Us</h3>
 
-          <p className="text-center text-lg text-gray-700 leading-relaxed max-w-3xl mx-auto">
+          <p className="text-center text-lg text-gray-700 leading-relaxed max-w-2xl mx-auto">
           At <span className="font-semibold text-indigo-600">Grow Peak Media</span>, 
           we specialize in creating videos and social media content that helps your brand grow faster.
           From video production to brand launch packages, we partner with you to make your brand shine 

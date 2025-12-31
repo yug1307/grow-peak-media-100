@@ -44,7 +44,7 @@ function App() {
         </div>
 
         {/* About */}
-          <p className="text-lg text-gray-700 leading-relaxed max-w-3xl mx-auto">
+          <p className="text-center px-4 text-lg text-gray-700 leading-relaxed max-w-3xl mx-auto">
           At <span className="font-semibold text-indigo-600">Grow Peak Media</span>, 
           we specialize in creating videos and social media content that helps your brand grow faster.
           From video production to brand launch packages, we partner with you to make your brand shine 

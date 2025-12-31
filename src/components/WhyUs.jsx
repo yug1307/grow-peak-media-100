@@ -6,7 +6,7 @@ const features = [
     title: "Tailored Content",
     desc: "We never reuse designs or videos—everything is made specifically for your business.",
   },
-  {
+  { 
     icon: <Rocket size={30} className="text-pink-500" />,
     title: "Creative + Strategic",
     desc: "Fresh, bold ideas mixed with proven strategies to make your brand stand out.",
@@ -30,17 +30,17 @@ const features = [
 
 function WhyUs() {
   return(
-    <section className="space-y-7">
+    <section className="bg-emerald-500 py-10 space-y-7">
       <h2 className="text-4xl text-center font-bold">💡 Why Choose Us</h2>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-8 max-w-7xl mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-6 max-w-7xl mx-auto">
         {features.map((feature, i) => (
 
           <div
             key={i}
             className="py-6 px-3 bg-white rounded-2xl text-center hover:shadow-lg 
-            space-y-2 transition-all hover:-translate-y-2"
-          >
+            space-y-2 transition-all hover:-translate-y-2">
+
             <div className="flex justify-center">{feature.icon}</div>
             <h3 className="text-lg font-semibold">{feature.title}</h3>
             <p className="text-gray-600 text-sm">{feature.desc}</p>

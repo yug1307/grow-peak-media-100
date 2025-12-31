@@ -30,7 +30,7 @@ const features = [
 
 function WhyUs() {
   return(
-    <section className="bg-emerald-500 py-10 space-y-7">
+    <section className="bg-emerald-500 py-10 px-4 space-y-7">
       <h2 className="text-4xl text-center font-bold">💡 Why Choose Us</h2>
 
       <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-6 max-w-7xl mx-auto">

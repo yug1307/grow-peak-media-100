@@ -16,8 +16,7 @@ const Topbar = () => {
         {/* Menu Items */}
         <ul className={`flex-col md:flex-row md:flex md:items-center md:space-x-8 space-y-2 md:space-y-0 absolute md:static right-0 top-12 bg-violet-800 text-lime-300 md:bg-transparent w-full md:w-auto z-50 transition-all duration-300 ${isOpen ? 'flex' : 'hidden'}`}>
           <Link to="/"><div className="block px-4 py-2 hover:underline">Home</div></Link>
-          <Link to="/about"><div className="block px-4 py-2 hover:underline">About Us</div></Link>
-          <Link to="/services"><div className="block px-4 py-2 hover:underline">Services</div></Link>
+          <Link to="/about"><div className="block px-4 py-2 hover:underline">About Us</div></Link>    
           <Link to="/contact"><div className="block px-4 py-2 hover:underline">Contact Us</div></Link>
         </ul>
       </div>

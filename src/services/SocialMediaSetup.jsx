@@ -1,16 +1,17 @@
 import React from 'react'
 import Topbar from '../components/Topbar'
 import FooterOne from '../components/FooterOne'
+import { FaUserPlus, FaIdBadge, FaUserCog, FaLightbulb } from 'react-icons/fa'
 import SMSetupPackages from './packages/SMSetupPackages'
 
 const Setup = [
-  { icon: "", title: "Platform Account Creation & Optimization",
+  { icon: <FaUserPlus className="text-blue-500"/>, title: "Platform Account Creation & Optimization",
     desc: "We create or professionally optimize your accounts on platforms such as Instagram, Facebook, LinkedIn, YouTube, and X (Twitter). This includes username selection, profile bios, descriptions, and links aligned with your brand." },
-  { icon: "", title: "Profile & Branding Setup", 
+  { icon: <FaIdBadge className="text-pink-500"/>, title: "Profile & Branding Setup", 
     desc: "Your profile images, cover banners, highlights, and basic visual elements are designed or aligned to ensure brand consistency across all platforms." },
-  { icon: "", title: "Business & Creator Account Configuration", 
+  { icon: <FaUserCog className="text-indigo-600"/>, title: "Business & Creator Account Configuration", 
     desc: "We set up business/creator accounts, connect them with Meta Business Manager where applicable, and enable essential features such as insights, messaging tools, and ad readiness." },
-  { icon: "", title: "Basic Content Strategy Guidance", 
+  { icon: <FaLightbulb className="text-yellow-500"/>, title: "Basic Content Strategy Guidance", 
     desc: "We provide recommendations on posting formats, content categories, tone of voice, and best practices tailored to your industry and target audience." }
 ]
 
@@ -49,7 +50,7 @@ const SocialMediaSetup = () => {
               className="bg-white p-6 rounded-lg hover:shadow-lg transition-shadow 
               space-y-2 text-center">
 
-              <div className="text-3xl flex flex-col items-center">{set.icon}</div>
+              <div className="text-4xl flex justify-center">{set.icon}</div>
               <div className="text-xl text-purple-600 font-semibold">{set.title}</div>
               <p className="text-gray-700">{set.desc}</p>
             </div>

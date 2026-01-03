@@ -1,7 +1,8 @@
 import React from 'react'
 import Topbar from '../components/Topbar'
 import FooterOne from '../components/FooterOne'
-import { FaChartLine, FaCut, FaFilm, FaHashtag, FaPalette } from 'react-icons/fa'
+import { FaChartLine, FaCut, FaFilm, FaHashtag, FaPalette,
+  FaLightbulb, FaClipboardList, FaVideo, FaEdit, FaCheckCircle} from 'react-icons/fa'
 import VideoPackages from './packages/VideoPackages'
 
 const Services = [
@@ -18,11 +19,16 @@ const Services = [
 ]
 
 const Process = [
-  { icon: "", title: "Concept & Script Planning", desc: "Understanding your goals and crafting the right story" },
-  { icon: "", title: "Pre-Production", desc: "Planning shots, locations, and visuals" },
-  { icon: "", title: "Production", desc: "High-quality filming with professional equipment" },
-  { icon: "", title: "Post-Production", desc: "Editing, color grading, motion graphics, sound design" },
-  { icon: "", title: "Final Delivery", desc: "Optimized videos for all platforms" }
+  { icon: <FaLightbulb className="text-yellow-500"/>, title: "Concept & Script Planning", 
+    desc: "Understanding your goals and crafting the right story" },
+  { icon: <FaClipboardList className="text-indigo-500"/>, title: "Pre-Production", 
+    desc: "Planning shots, locations, and visuals" },
+  { icon: <FaVideo className="text-red-500"/>, title: "Production",
+    desc: "High-quality filming with professional equipment" },
+  { icon: <FaEdit className="text-purple-600"/>, title: "Post-Production", 
+    desc: "Editing, color grading, motion graphics, sound design" },
+  { icon: <FaCheckCircle className="text-green-600"/>, title: "Final Delivery", 
+    desc: "Optimized videos for all platforms" }
 ]
 
 const whyChooseUs = [
@@ -93,7 +99,7 @@ const VideoProduction = () => {
               className="bg-blue-100 py-5 px-2 rounded-lg 
               transition transform hover:-translate-y-2 text-center">
               
-              <div className="text-3xl">{step.icon}</div>
+              <div className="flex justify-center text-3xl">{step.icon}</div>
               <div className="text-lg font-semibold text-indigo-600">{step.title}</div>
               <p className="text-gray-700">{step.desc}</p>
             </div>

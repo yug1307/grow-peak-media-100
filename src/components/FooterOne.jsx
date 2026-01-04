@@ -16,11 +16,11 @@ const FooterOne = () =>{
         </div>
 
         {/* Services */}
-        <div>
-        <a href="/services"><h3 className="text-lg font-semibold mb-4 text-white">Our Services</h3></a>
+        <div className="space-y-4">
+        <h3 className="text-lg font-semibold text-white">Our Services</h3>
           
           <ul className="space-y-2">
-            <li>Video Production</li>
+            <a href="/video-production"><li>Video Production</li></a>
             <li>Social Media Setup</li>
             <li>Brand Launch Packages</li>
             <li>Social Media Management</li>

@@ -43,7 +43,7 @@ function WhyUs() {
 
             <div className="flex justify-center">{feature.icon}</div>
             <h3 className="text-lg font-semibold">{feature.title}</h3>
-            <p className="text-gray-600 text-sm">{feature.desc}</p>
+            <p className="text-gray-600 text-md">{feature.desc}</p>
           </div>
         ))}
       </div>

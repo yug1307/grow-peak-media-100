@@ -61,7 +61,7 @@ function App() {
       <div className="space-y-7">
         <h2 className="text-4xl font-bold text-center">🚀 Our Services</h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-6 max-w-7xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 max-w-7xl mx-auto">
           {services.map((service, i) => (
 
             <div
@@ -71,7 +71,7 @@ function App() {
 
               <div className="flex justify-center text-blue-600">{service.icon}</div>
               <div className="text-lg font-semibold">{service.title}</div>
-              <div className="text-gray-600">{service.caption}</div>
+              <div className="text-gray-600 text-md">{service.caption}</div>
 
               <Link to={service.link} className="inline-block bg-lime-600 w-40 rounded-md">
                 <div className="text-white my-2 font-semibold">Get Now</div>

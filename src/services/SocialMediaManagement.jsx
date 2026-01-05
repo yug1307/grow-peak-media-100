@@ -20,7 +20,7 @@ const SocialMediaManagement = () => {
     <>
     <Topbar/>
       <header className="bg-sky-100 py-10 px-5 space-y-6">
-        <h2 className="text-4xl font-bold text-center">📊 Social Media Setup</h2>
+        <h2 className="text-4xl font-bold text-center">📊 Social Media Management</h2>
  
         <div className="max-w-6xl mx-auto text-lg text-center space-y-4">
           <p>

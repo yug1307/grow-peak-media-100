@@ -42,7 +42,7 @@ const SocialMediaSetup = () => {
       <section className="bg-orange-400 py-10 px-4 my-12 space-y-6">
         <h2 className="text-3xl font-bold text-center">🔧 What We Set Up</h2>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 max-w-6xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-6xl mx-auto">
           {Setup.map((set, idx) => (
 
             <div 

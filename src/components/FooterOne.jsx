@@ -21,9 +21,9 @@ const FooterOne = () =>{
           
           <ul className="space-y-2">
             <a href="/video-production"><li>Video Production</li></a>
-            <li>Social Media Setup</li>
-            <li>Brand Launch Packages</li>
-            <li>Social Media Management</li>
+            <a href="/social-media-setup"><li>Social Media Setup</li></a>
+            <a href="/social-media-management"><li>Social Media Management</li></a>
+            <a href="/brand-launch-packages"><li>Brand Launch Packages</li></a>
           </ul>
         </div>
 

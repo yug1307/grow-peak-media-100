@@ -71,7 +71,7 @@ const VideoProduction = () => {
       <section className="bg-orange-400 py-10 px-4 my-12 space-y-6">
         <h2 className="text-3xl font-bold text-center">🎥 Our Video Production Services</h2>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 max-w-6xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 max-w-6xl mx-auto">
           {Services.map((service, index) => (
             
             <div 

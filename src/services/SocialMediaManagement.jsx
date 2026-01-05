@@ -57,7 +57,7 @@ const SocialMediaManagement = () => {
         </div>
       </section>
 
-      <section className="bg-indigo-800 py-10 mx-3 rounded-xl space-y-4">
+      <section className="bg-indigo-800 py-10 px-5 mx-3 rounded-xl space-y-4">
         <h2 className="text-3xl text-white font-bold text-center">📈 Performance Tracking & Optimization</h2>
       
         <p className="max-w-4xl mx-auto text-white text-lg text-center">

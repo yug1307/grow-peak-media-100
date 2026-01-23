@@ -1,4 +1,4 @@
-import React, { Suspense } from 'react';
+import React from 'react';
 import Topbar from './components/Topbar'
 import FAQ from "./components/FAQ";
 import Carousel from './components/Carousel';
@@ -8,12 +8,6 @@ import FooterOne from './components/FooterOne'
 import { Video, Facebook, Instagram, TrendingUp } from "lucide-react";
 import './App.css'
 import { Link } from 'react-router-dom';
-
-// const Services = React.lazy(() => import('./components/Services')); 
-
-// <Suspense fallback={<div>Loading...</div>}>
-//   <Services />
-// </Suspense>
 
 const services = [
   { icon: <Video size={36} />, title: "Video Production", 
@@ -52,7 +46,7 @@ function App() {
           </p>
 
         <div className="bg-blue-800 py-3 px-4 w-40 rounded-lg text-lg text-orange-400 text-center max-w-xl mx-auto">
-          <Link to="/services">Explore More</Link>
+          <Link to="/contact">Explore More</Link>
         </div>
       </section>
 

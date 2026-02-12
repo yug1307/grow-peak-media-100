@@ -142,7 +142,7 @@ const BrandLaunchPackages = () => {
       <section className="bg-fuchsia-100 py-10 px-4 my-12 space-y-6">
         <h2 className="text-3xl font-bold text-center">🌟 Why Grow Peak Media?</h2>
 
-        <ul className="text-left md:text-center text-lg grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 max-w-6xl mx-auto">
+        <ul className="text-left md:text-center text-lg grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 max-w-6xl mx-auto">
           <li>✔ End-to-End Brand Launch Support</li>
           <li>✔ Strategy + Creativity + Execution</li>
           <li>✔ Market-ready & growth-focused approach</li>

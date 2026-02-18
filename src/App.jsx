@@ -20,11 +20,11 @@ const services = [
     caption: "Launch with Confidence and Transparency", link: "/brand-launch-packages" },
 ];
 
-function App() {
+function App() { 
   return (
     <>
       <Topbar /> 
-      {/* <Carousel/> */}
+      <Carousel/>
       <section className="py-16 bg-gradient-to-r from-blue-50 to-indigo-100 space-y-8">
         <div className="max-w-6xl mx-auto px-6 text-center space-y-3">
     

@@ -30,7 +30,7 @@ const ContactSchema = new mongoose.Schema({
   service: { type: String },
   description: { type: String },
 });
-
+ 
 // Model
 const Contact = mongoose.model("Contact", ContactSchema);
 

@@ -2,24 +2,30 @@
 import React, { useState, useEffect } from "react";
 
 const slides = [
-  {
+  { 
     id: 1,
-    image: "/assets/react.svg",
-    title: "Creative Video Production",
-    description: "Engaging videos to showcase your brand’s story.",
-  },
+    image: "/images/video-production-01.png",
+    title: "Video Production",
+    description: "Tell Your Story Through Compelling Visuals",
+  }, 
   {
     id: 2,
-    image: "https://via.placeholder.com/800x400.png?text=Slide+2",
-    title: "Social Media Marketing",
+    image: "/images/sms-01.png",
+    title: "Social Media Setup",
     description: "Grow your brand’s presence with smart social strategies.",
   },
   {
     id: 3,
-    image: "https://via.placeholder.com/800x400.png?text=Slide+3",
-    title: "Drone & Aerial Videography",
-    description: "Breathtaking visuals to elevate your content.",
+    image: "/images/smm-01.png",
+    title: "Social Media Management",
+    description: "Consistent, Creative & Growth-Oriented",
   },
+  {
+    id: 4,
+    image: "/images/blp-01.png",
+    title: "Brand Launch Packages",
+    description: "Launch with Confidence and Transparency",
+  }
 ];
 
 const Carousel = () => {
@@ -36,25 +42,25 @@ const Carousel = () => {
   const goToSlide = (index) => setCurrentIndex(index);
 
   return (
-    <section className="max-w-6xl mx-auto mt-0 border-4 border-indigo-500">
+    <section className="max-w-8xl mx-auto mt-0">
       <div className="relative overflow-hidden rounded-sm shadow-lg">
         <img
           src={slides[currentIndex].image}
           alt={slides[currentIndex].title}
-          className="w-full h-[400px] object-cover"/>
+          className="h-full w-[auto] object-cover"/>
 
-        <div className="absolute bottom-0 left-0 right-0 p-4 bg-black/50 text-white">
+        <div className="absolute bottom-0 left-0 right-0 py-6 px-4 bg-black/50 text-white">
           <h2 className="text-xl font-bold">{slides[currentIndex].title}</h2>
           <p>{slides[currentIndex].description}</p>
         </div>
 
         {/* Dots */}
-        <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2">
+        <div className="absolute bottom-1 left-1/2 transform -translate-x-1/2 flex space-x-2">
           {slides.map((_, idx) => (
             <button
               key={idx}
               onClick={() => goToSlide(idx)}
-              className={`w-3 h-3 rounded-full ${
+              className={`w-2 h-2 rounded-full ${
                   idx === currentIndex ? "bg-white" : "bg-gray-400"
                 }`}
                 ></button>

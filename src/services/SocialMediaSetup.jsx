@@ -40,6 +40,7 @@ const SocialMediaSetup = () => {
   return (
     <> 
     <Topbar/>
+      <img src="/images/sms-02.png" alt="" className="h-full w-[auto]" />
       <header className="bg-sky-100 py-10 px-5 space-y-6">
         <h2 className="text-4xl font-bold text-center">📱 Social Media Setup</h2>
  

@@ -6,7 +6,7 @@ import { MapPin, Phone, Mail } from "lucide-react";
 
 const ContactUs = () => {
   return (
-    <>
+    <> 
     <Topbar/>
     <ContactForm/>
       <section className="bg-gradient-to-b from-white to-blue-50 py-16 text-center">

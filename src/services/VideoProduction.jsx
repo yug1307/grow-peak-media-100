@@ -48,6 +48,7 @@ const VideoProduction = () => {
   return (
     <>
     <Topbar/>
+      <img src="/images/video-production-02.png" alt="" className="h-full w-[auto]" />
       <header className="bg-sky-100 py-10 px-5 space-y-6">
         <h2 className="text-4xl font-bold text-center">🎬 Video Production</h2>
 
@@ -95,8 +96,8 @@ const VideoProduction = () => {
           {Process.map((step, idx) => (
 
             <div
-              key={idx}
-              className="bg-blue-100 py-5 px-2 rounded-lg 
+              key={idx} 
+              className="bg-blue-100 py-5 px-2 rounded-lg space-y-1
               transition transform hover:-translate-y-2 text-center">
               
               <div className="flex justify-center text-3xl">{step.icon}</div>

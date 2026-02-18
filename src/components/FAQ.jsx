@@ -60,15 +60,15 @@ export default function FAQ() {
       <h2 className="text-3xl font-bold text-center mb-8">Frequently Asked Questions</h2>
     <div className="space-y-4">
         {faqs.map((faq, index) => (
-    <div key={index} className="border border-gray-300 rounded-lg p-4 cursor-pointer hover:bg-gray-50 transition"
+    <div key={index} className="border border-gray-300 rounded-lg p-4 cursor-pointer hover:bg-purple-100 transition"
     onClick={() => setOpenIndex(openIndex === index ? null : index)}>
 
       <h3 className="text-lg font-semibold">{faq.question}</h3>
       {openIndex === index && (
-      <div className="mt-2 mb-2 text-gray-600">
+      <div className="mt-2 mb-2 text-gray-950">
         {Array.isArray(faq.answer) ? (
           <ul className="list-disc ml-6">
-            {faq.answer.map((item, i) => (
+            {faq.answer.map((item, i) => ( 
               <li key={i}>{item}</li>
             ))}
           </ul>

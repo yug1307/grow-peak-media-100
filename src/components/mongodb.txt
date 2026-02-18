@@ -1,0 +1,1 @@
+mongodb+srv://yugaanterd_db_user:Yug@13072@cluster0.v7toa.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0

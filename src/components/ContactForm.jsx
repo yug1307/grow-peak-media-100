@@ -2,18 +2,18 @@ import { useState } from 'react';
 import axios from 'axios';
 
 const ContactForm = () => {
-  const [form, setForm] = useState({ 
+  const [form, setForm] = useState({
     name: '', email: '', number: '', service: '', description: ''
   });
 
   const handleChange = (e) => {
     setForm({...form, [e.target.name]: e.target.value});
-  }
+  } 
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post('https://grow-peak-backend.onrender.com/api/contact', form);
+      await axios.post('http://localhost:5000/api/contact', form);
       alert('Submitted successfully!');
       setForm({ name: '', email: '', number: '', service: '', description: '' });
     } catch (err) {

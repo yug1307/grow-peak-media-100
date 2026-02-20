@@ -73,7 +73,8 @@ const packages = [
 const BrandPackages = () => {
   return (
     <section className="bg-gradient-to-t from-blue-500 to-orange-500 py-10 px-4 space-y-6">
-
+      <h2 className="text-3xl font-bold text-blue-800 text-center">Brand Launching Packages</h2>
+      
       <div className="grid grid-cols-1 lg:grid-cols-1 gap-6 max-w-6xl mx-auto">
         {packages.map((pkg, idx) => (
 

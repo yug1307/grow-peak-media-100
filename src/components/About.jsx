@@ -40,7 +40,7 @@ const About = () => {
         </div>
         
         <div className="bg-yellow-500 rounded-xl p-4 text-center space-y-3">
-          <h3 className="font-bold text-2xl">Our Vison</h3>
+          <h3 className="font-bold text-2xl">Our Vision</h3>
           
           <p className="texl-lg">We envision becoming a trusted digital growth partner for brands worldwide — known 
             for delivering reliable technology, creative excellence, and measurable business outcomes. Our goal is

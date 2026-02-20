@@ -52,7 +52,7 @@ const Packages = [
 const VideoPackages = () => {
   return (
     <section className="bg-gradient-to-t from-blue-500 to-orange-500 py-10 px-4 space-y-6">
-      <h2 className="text-3xl font-bold text-center">🎬 Video Production Packages</h2>
+      <h2 className="text-3xl font-bold text-blue-800 text-center">🎬 Video Production Packages</h2>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
         {Packages.map((pkg, idx) => (

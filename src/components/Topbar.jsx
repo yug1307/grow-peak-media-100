@@ -32,7 +32,7 @@ const Topbar = () => {
 
       {/* Mobile Menu */}
       {menuOpen && (
-        <div className="md:hidden bg-sky-800 border-t">
+        <div className="md:hidden bg-violet-800 border-t">
           <nav className="flex flex-col items-center space-y-4 px-6 py-6 text-white">
             <Link to="/" onClick={() => setMenuOpen(false)}>Home</Link>
             <Link to="/about" onClick={() => setMenuOpen(false)}>About</Link>

@@ -47,7 +47,7 @@ const Carousel = () => {
           alt={slides[currentIndex].title}
           className="h-full w-[auto] object-cover"/>
 
-        <div className="absolute bottom-0 left-0 right-0 p-3 bg-black/50 text-white">
+        <div className="absolute bottom-0 left-0 right-0 py-2 px-3 bg-black/50 text-white">
           <h2 className="text-xl font-bold">{slides[currentIndex].title}</h2>
           <p>{slides[currentIndex].description}</p>
         </div>

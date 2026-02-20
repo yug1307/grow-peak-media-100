@@ -39,8 +39,6 @@ const Carousel = () => {
     return () => clearInterval(timer);
   }, []);
 
-  const goToSlide = (index) => setCurrentIndex(index);
-
   return (
     <section className="max-w-8xl mx-auto mt-0">
       <div className="relative overflow-hidden rounded-sm shadow-lg">
@@ -52,19 +50,6 @@ const Carousel = () => {
         <div className="absolute bottom-0 left-0 right-0 py-6 px-4 bg-black/50 text-white">
           <h2 className="text-xl font-bold">{slides[currentIndex].title}</h2>
           <p>{slides[currentIndex].description}</p>
-        </div>
-
-        {/* Dots */}
-        <div className="absolute bottom-1 left-1/2 transform -translate-x-1/2 flex space-x-2">
-          {slides.map((_, idx) => (
-            <button
-              key={idx}
-              onClick={() => goToSlide(idx)}
-              className={`w-2 h-2 rounded-full ${
-                  idx === currentIndex ? "bg-white" : "bg-gray-400"
-                }`}
-                ></button>
-            ))}
         </div>
       </div>
     </section>

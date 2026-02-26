@@ -7,11 +7,29 @@ const FooterOne = () =>{
     <footer className="bg-gray-900 text-gray-300">
       <section className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 py-8 px-5 gap-4">
         {/* Logo */}
-        <svg width="0 160%" height="100%" viewBox="0 0 750 180" xmlns="http://www.w3.org/2000/svg">
-          <style>{`.hotel-name { font-family: "Didot", "Bodoni MT", "Playfair Display", serif; font-size: 60px; font-weight: 500; letter-spacing: 4px; fill: #d7da27 } .divider { stroke: #bf63c2; stroke-width: 5 }`}</style>
-          <line x1="170" y1="50" x2="530" y2="50" className="divider"/>
-          <text x="370" y="108" textAnchor="middle" className="hotel-name">GROW PEAK MEDIA</text>
-          <line x1="170" y1="125" x2="530" y2="125" className="divider"/>
+        <svg width="180" height="180" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+          {/* Peak Icon */}
+          <path d="M250 600 L512 140 L780 600 Z" fill="#ffffff"/>
+
+          {/* Inner Peak Accent */}
+          <path d="M512 140 L660 600 L364 600 Z" fill="#f4b400"/>
+
+          {/* Growth Line */}
+          {/* <path d="M240 650 C460 680, 470 540, 520 500 S640 420, 700 360" stroke="#2ecc71"
+          stroke-width="12" fill="none" stroke-linecap="round"/> */}
+
+          {/* Arrow Tip */}
+          {/* <polygon points="700,360 680,370 692,342" fill="#2ecc71"/> */}
+
+          {/* Company Name */}
+          <text x="512" y="760" font-family="Poppins, Montserrat, Arial, sans-serif" font-size="100"
+            text-anchor="middle" fill="#ffffff" font-weight="600">GROW <tspan fill="#f4b400">PEAK</tspan>
+          </text>
+
+          {/* MEDIA Text */}
+          <text x="512" y="830" font-family="Poppins, Montserrat, Arial, sans-serif" font-size="54"
+            text-anchor="middle" fill="#bbbbbb" letter-spacing="10">MEDIA
+          </text>
         </svg>
         
         {/* Company */}

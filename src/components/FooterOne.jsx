@@ -7,6 +7,7 @@ const FooterOne = () =>{
     <footer className="bg-gray-900 text-gray-300">
       <section className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 py-8 px-5 gap-4">
         {/* Logo */}
+        <div className="flex flex-col items-center">
         <svg width="180" height="180" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
           {/* Peak Icon */}
           <path d="M250 600 L512 140 L780 600 Z" fill="#ffffff"/>
@@ -27,10 +28,11 @@ const FooterOne = () =>{
           </text>
 
           {/* MEDIA Text */}
-          <text x="512" y="830" font-family="Poppins, Montserrat, Arial, sans-serif" font-size="54"
+          <text x="512" y="830" font-family="Poppins, Montserrat, Arial, sans-serif" font-size="60"
             text-anchor="middle" fill="#bbbbbb" letter-spacing="10">MEDIA
           </text>
         </svg>
+        </div>
         
         {/* Company */}
         <div className="space-y-4">
